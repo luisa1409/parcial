@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+ 
+    
+}
+:root{
+    --color-text-white:#fff;
+    --color-text-black: #000;
+}
+
+
+header.img {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    color: rgb(24, 16, 16);
+    text-align: center;
+    padding: 50px;
+}
+
+/* ############################################################################### */
+
+section.primero {
+    text-align: center;
+}
+
+section.primero h1 {
+    font-size: 2em;
+}
+
+section.primero  {
+    font-size: 1.2em;
+}
+
+.primero {
+    text-align: center;
+    color: #000; /* Color de texto negro */
+    background-color: #000; /* Color de fondo negro para el section */
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.parrafo1{
+    color: #fff; /* Color de texto blanco */
+    font-size: 65px; 
+} 
+
+.parrafo2{
+    color: #fff; /* Color de texto blanco */
+    font-size: 15px; 
+    text-align: center;
+    padding-bottom: 45px;
+    
+} 
+
+.button {
+    
+    color: #fff; /* Color de texto blanco */
+     font-size: 18px; 
+     
+    
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff0000; /* Color de fondo del botón, ajusta según tus necesidades */
+    color: #fff; /* Color de texto del botón */
+    border-radius: 5px; /* Bordes redondeados del botón, ajusta según tus necesidades */
+}
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 15px;
+    text-align: right;
+}
+
+nav a {
+    color: #fff; /* Color de texto de los enlaces */
+    text-decoration: none;
+    margin: 0 15px; /* Espaciado entre enlaces */
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse sobre los enlaces */
+}
+
+
+/* ################################################################################################ */
+
+section.segundo {
+    text-align: center;
+}
+
+section.segundo h1 {
+    font-size: 2em;
+}
+
+section.segundo  {
+    font-size: 1.2em;
+}
+
+.segundo {
+    text-align: center;
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.parrafo3{
+    color: #0e0b0b; /* Color de texto blanco */
+    font-size: 40px; 
+} 
+
+.parrafo4{
+    color: #3cda70; /* Color de texto blanco */
+    font-size: 18px; 
+    padding-bottom: 20px;
+} 
+
+.parrafo5{
+    color: #0a0808; /* Color de texto blanco */
+    font-size: 15px; 
+    text-align: center;
+    padding-bottom: 20px;
+    
+} 
+
+.buttongreen {
+    
+    color: #ffffff; /* Color de texto blanco */
+     font-size: 18px; 
+     
+    
+}
+
+a.buttongreen {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #347241; /* Color de fondo del botón, ajusta según tus necesidades */
+    color: #fff; /* Color de texto del botón */
+    border-radius: 5px; /* Bordes redondeados del botón, ajusta según tus necesidades */
+}
+
+
+
+/* ################################################################################## */
+
+section.segundo {
+    text-align: center;
+}
+
+section.segundo h1 {
+    font-size: 2em;
+}
+
+section.segundo  {
+    font-size: 1.2em;
+    
+}
+
+.segundo {
+    text-align: center;
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.parrafo3{
+    color: #111111; /* Color de texto blanco */
+    font-size: 40px; 
+} 
+
+.parrafo4{
+    color: #3cda70; /* Color de texto blanco */
+    font-size: 18px; 
+    padding-bottom: 20px;
+} 
+
+.parrafo5{
+    color: #0a0808; /* Color de texto blanco */
+    font-size: 15px; 
+    text-align: center;
+    padding-bottom: 20px;
+    
+} 
+
+/* ############################################################################ */
+
+section.tercero {
+    text-align: center;
+}
+
+section.tercero h1 {
+    font-size: 2em;
+}
+
+section.tercero  {
+    font-size: 1.2em;
+}
+
+.tercero {
+    text-align: center;
+    color: #000; /* Color de texto negro */
+    background-color: #9E4F09; /* Color de fondo negro para el section */
+    padding: 50px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.contenedor-parrafos {
+    display: flex;
+    justify-content: space-around; /* Espacio equitativo entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.parrafo6{
+    color: #f5efef; /* Color de texto blanco */
+    font-size: 40px; 
+    text-align: left;
+} 
+
+.parrafo7{
+    color: #f4f7f5; /* Color de texto blanco */
+    text-align: right; /* Justifica el texto para que tenga un aspecto más equilibrado */
+    font-size: 20px; /* Ajusta el tamaño de la letra según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente el párrafo */
+    max-width: 750px; 
+
+} 
+
+
+
+/* ############################################################################################# */
+
+section.cuarto {
+    text-align: center;
+}
+
+section.cuarto h1 {
+    font-size: 2em;
+}
+
+section.cuarto  {
+    font-size: 1.2em;
+}
+
+.cuarto {
+    text-align: center;
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.contenedor-parrafos {
+    display: flex;
+    justify-content: space-around; /* Espacio equitativo entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.parrafo8{
+    color: #050505; /* Color de texto blanco */
+    font-size: 30px; 
+    text-align: left;
+} 
+
+section.cuarto img {
+    margin: 10px;
+}
+
+.contenedor-imagenes1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-imagenes2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ####################################################################################### */
+
+section.quinto {
+    text-align: center;
+}
+
+section.quinto h1 {
+    font-size: 2em;
+}
+
+section.quinto  {
+    font-size: 1.2em;
+}
+
+.quinto {
+    text-align: center;
+    color: #000; /* Color de texto negro */
+    background-color: #000; /* Color de fondo negro para el section */
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+
+
+.parrafo9{
+    color: #fff; /* Color de texto blanco */
+    font-size: 30px; 
+    text-align: center;
+    padding-bottom: 25px;
+    
+} 
+
+.button2{
+    
+    color: #fff; /* Color de texto blanco */
+     font-size: 18px; 
+     
+    
+}
+
+a.button2{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff0000; /* Color de fondo del botón, ajusta según tus necesidades */
+    color: #fff; /* Color de texto del botón */
+    border-radius: 5px; /* Bordes redondeados del botón, ajusta según tus necesidades */
+}
+
+/* ####################################################################################### */
+
+section.sexto {
+    text-align: center;
+}
+
+section.sexto h1 {
+    font-size: 2em;
+}
+
+section.sexto  {
+    font-size: 1.2em;
+}
+
+.sexto {
+    text-align: center;
+    padding: 18px; /* Ajusta el espaciado interno según tus necesidades */
+}
+
+.parrafo10{
+    color: #050505; /* Color de texto blanco */
+    font-size: 30px; 
+    text-align: left;
+    padding-bottom: 25px;
+    
+} 
+
+
+
+section h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contenedor-texto1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+.contenedor-texto2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/* 
+######################################################################## */
+
+section.ultimo {
+    background-color: #050505d0;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
